@@ -1,0 +1,3005 @@
+{
+  "source_base_path": "C:/Users/Alex/Documents/Dev SL/NwPluginAPI/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NWPluginAPI.Analyzers.Enums.ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NWPluginAPI.Analyzers.Enums.ActionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NWPluginAPI.Analyzers.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NWPluginAPI.Analyzers.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NWPluginAPI.Analyzers.NWPluginAPIAnalyzersAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NWPluginAPI.Analyzers.NWPluginAPIAnalyzersAnalyzer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NWPluginAPI.Analyzers.NWPluginAPIAnalyzersCodeFixProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NWPluginAPI.Analyzers.NWPluginAPIAnalyzersCodeFixProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NWPluginAPI.Analyzers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NWPluginAPI.Analyzers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Commands.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Commands.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Commands.CommandsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Commands.CommandsManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Commands.ListCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Commands.ListCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Commands.PluginsCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Commands.PluginsCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Commands.ReloadConfigCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Commands.ReloadConfigCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.EventArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.EventArgument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginCommandAliases.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginCommandAliases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginEntryPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginEntryPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginPriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginReload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginReload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.PluginUnload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.PluginUnload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Cassie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Cassie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.DamageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.DamageManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.DataStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.DataStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Doors.FacilityBreakableDoor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Doors.FacilityBreakableDoor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Doors.FacilityDoor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Doors.FacilityDoor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Doors.FacilityGate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Doors.FacilityGate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Doors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Doors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.EffectsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.EffectsManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Extensions.ReflectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Extensions.ReflectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Facility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Facility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Factories.Factory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Factories.Factory-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Factories.IEntityFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Factories.IEntityFactory-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Factories.PlayerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Factories.PlayerFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Factories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Factories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.FactoryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.FactoryManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Interfaces.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Interfaces.IEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Interfaces.IGameComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Interfaces.IGameComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Interfaces.IGameItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Interfaces.IGameItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Interfaces.IPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Interfaces.IPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Items.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Items.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Items.ItemPickup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Items.ItemPickup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.OfflinePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.OfflinePlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.PlayerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.PlayerExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.PlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.PlayerInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.PlayerSharedStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.PlayerSharedStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.PluginHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.PluginHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.ReservedSlots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.ReservedSlots.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Respawn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Respawn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.RoomLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.RoomLight.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Round.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Round.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Server.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Statistics.FastestRound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Statistics.FastestRound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Statistics.Peak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Statistics.Peak.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Statistics.Round.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Statistics.Round.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Statistics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Warhead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Warhead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Whitelist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Whitelist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Entrance.EzRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Entrance.EzRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Entrance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Entrance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.EntranceZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.EntranceZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.FacilityRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.FacilityRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.FacilityZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.FacilityZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Heavy.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Heavy.Generator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Heavy.GeneratorLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Heavy.GeneratorLogic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Heavy.HczRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Heavy.HczRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Heavy.Rooms.HczScp049.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Heavy.Rooms.HczScp049.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Heavy.Rooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Heavy.Rooms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Heavy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Heavy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.HeavyZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.HeavyZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Light.LczRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Light.LczRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Light.Rooms.LczScp914.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Light.Rooms.LczScp914.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Light.Rooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Light.Rooms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Light.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Light.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.LightZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.LightZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Pocket.PocketDimension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Pocket.PocketDimension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Pocket.PocketDimensionLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Pocket.PocketDimensionLogic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Pocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Pocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.Surface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.Surface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.SurfaceZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.SurfaceZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.UnknownZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.UnknownZone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.Zones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.Zones.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.CommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.CommandType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.DamageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.LoadPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.LoadPriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.LogType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.LogType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.RoleRegisterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.RoleRegisterType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.ServerEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.ServerEventType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.BanIssuedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.BanIssuedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.BanRevokedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.BanRevokedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.BanUpdatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.BanUpdatedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.CassieAnnouncesScpTerminationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.CassieAnnouncesScpTerminationEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.ConsoleCommandEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.ConsoleCommandEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.ConsoleCommandExecutedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.ConsoleCommandExecutedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.EventInvokeLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.EventInvokeLocation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.EventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.EventManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.EventParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.EventParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.GeneratorActivatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.GeneratorActivatedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.GrenadeExplodedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.GrenadeExplodedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.IEventArguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.IEventArguments.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.IEventCancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.IEventCancellation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.ItemSpawnedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.ItemSpawnedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.LczDecontaminationAnnouncementEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.LczDecontaminationAnnouncementEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.LczDecontaminationStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.LczDecontaminationStartEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.MapGeneratedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.MapGeneratedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlaceBloodEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlaceBloodEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlaceBulletHoleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlaceBulletHoleEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerActivateGeneratorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerActivateGeneratorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerAimWeaponEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerAimWeaponEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerBannedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerBannedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerCancelUsingItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerCancelUsingItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerChangeItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerChangeItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerChangeRadioRangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerChangeRadioRangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerChangeRoleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerChangeRoleEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerChangeSpectatorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerChangeSpectatorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerCheaterReportEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerCheaterReportEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerCheckReservedSlotCancellationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerCheckReservedSlotCancellationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerCheckReservedSlotEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerCheckReservedSlotEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerCloseGeneratorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerCloseGeneratorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerCoinFlipEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerCoinFlipEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDamageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDamageEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDamagedShootingTargetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDamagedShootingTargetEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDamagedWindowEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDamagedWindowEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDeactivatedGeneratorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDeactivatedGeneratorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDeathEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDeathEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDropAmmoEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDropAmmoEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDropItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDropItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDroppedAmmoEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDroppedAmmoEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDroppedItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDroppedItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDryfireWeaponEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDryfireWeaponEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerDyingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerDyingEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerEnterPocketDimensionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerEnterPocketDimensionEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerEscapeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerEscapeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerExitPocketDimensionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerExitPocketDimensionEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerGameConsoleCommandEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerGameConsoleCommandEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerGameConsoleCommandExecutedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerGameConsoleCommandExecutedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerGetGroupCancellationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerGetGroupCancellationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerGetGroupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerGetGroupEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerHandcuffEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerHandcuffEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerInteractDoorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerInteractDoorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerInteractElevatorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerInteractElevatorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerInteractGeneratorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerInteractGeneratorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerInteractLockerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerInteractLockerEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerInteractScp330Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerInteractScp330Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerInteractShootingTargetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerInteractShootingTargetEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerJoinedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerJoinedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerKickedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerKickedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerLeftEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerLeftEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerMakeNoiseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerMakeNoiseEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerMutedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerMutedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerOpenGeneratorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerOpenGeneratorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPickupAmmoEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPickupAmmoEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPickupArmorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPickupArmorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPickupScp330Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPickupScp330Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPreCoinFlipCancellationData.CoinFlipCancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPreCoinFlipCancellationData.CoinFlipCancellation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPreCoinFlipCancellationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPreCoinFlipCancellationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPreCoinFlipEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPreCoinFlipEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerPreauthEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerPreauthEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerRadioToggleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerRadioToggleEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerReceiveEffectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerReceiveEffectEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerReloadWeaponEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerReloadWeaponEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerRemoveHandcuffsEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerRemoveHandcuffsEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerReportEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerReportEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerSearchPickupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerSearchPickupEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerSearchedPickupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerSearchedPickupEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerShotWeaponEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerShotWeaponEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerSpawnEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerSpawnEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerThrowItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerThrowItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerThrowProjectileEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerThrowProjectileEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerToggleFlashlightEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerToggleFlashlightEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUnloadWeaponEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUnloadWeaponEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUnlockGeneratorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUnlockGeneratorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUnmutedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUnmutedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUseHotkeyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUseHotkeyEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUseItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUseItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUsedItemEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUsedItemEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUsingIntercomEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUsingIntercomEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PlayerUsingRadioEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PlayerUsingRadioEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.PreauthCancellationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.PreauthCancellationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RagdollSpawnEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RagdollSpawnEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RemoteAdminCommandEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RemoteAdminCommandEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RemoteAdminCommandExecutedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RemoteAdminCommandExecutedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundEndCancellationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundEndCancellationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundEndConditionsCheckCancellationData.RoundEndConditionsCheckCancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundEndConditionsCheckCancellationData.RoundEndConditionsCheckCancellation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundEndConditionsCheckCancellationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundEndConditionsCheckCancellationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundEndConditionsCheckEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundEndConditionsCheckEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundEndEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundEndEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundRestartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundRestartEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.RoundStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.RoundStartEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp049ResurrectBodyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp049ResurrectBodyEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp049StartResurrectingBodyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp049StartResurrectingBodyEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079BlackoutRoomEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079BlackoutRoomEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079BlackoutZoneEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079BlackoutZoneEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079CameraChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079CameraChangedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079CancelRoomLockdownEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079CancelRoomLockdownEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079GainExperienceEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079GainExperienceEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079LevelUpTierEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079LevelUpTierEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079LockDoorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079LockDoorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079LockdownRoomEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079LockdownRoomEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079UnlockDoorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079UnlockDoorEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp079UseTeslaEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp079UseTeslaEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096AddingTargetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096AddingTargetEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096ChangeStateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096ChangeStateEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096ChargingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096ChargingEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096EnragingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096EnragingEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096PryingGateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096PryingGateEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096StartCryingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096StartCryingEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp096TryNotCryEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp096TryNotCryEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp106StalkingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp106StalkingEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp106TeleportPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp106TeleportPlayerEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp173BreakneckSpeedsEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp173BreakneckSpeedsEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp173CreateTantrumEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp173CreateTantrumEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp173NewObserverEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp173NewObserverEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp173PlaySoundEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp173PlaySoundEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp173SnapPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp173SnapPlayerEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914ActivateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914ActivateEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914InventoryItemUpgradedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914InventoryItemUpgradedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914KnobChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914KnobChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914PickupUpgradedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914PickupUpgradedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914ProcessPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914ProcessPlayerEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914UpgradeInventoryEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914UpgradeInventoryEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp914UpgradePickupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp914UpgradePickupEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp939AttackEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp939AttackEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp939CreateAmnesticCloudEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp939CreateAmnesticCloudEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.Scp939LungeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.Scp939LungeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.TeamRespawnEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.TeamRespawnEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.TeamRespawnSelectedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.TeamRespawnSelectedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.WaitingForPlayersEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.WaitingForPlayersEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.WarheadDetonationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.WarheadDetonationEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.WarheadStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.WarheadStartEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.WarheadStopEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.WarheadStopEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Helpers.Paths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Helpers.Paths.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Loader.AssemblyLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Loader.AssemblyLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Loader.Features.PluginDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Loader.Features.PluginDirectory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Loader.Features.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Loader.Features.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Loader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Loader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.PluginApiVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.PluginApiVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.BaseChaos-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.BaseChaos-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.BaseHuman-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.BaseHuman-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.BaseNineTailedFox-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.BaseNineTailedFox-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.BaseRole-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.BaseRole-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.BaseScp-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.BaseScp-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.ChaosConscript-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.ChaosConscript-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.ChaosMarauder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.ChaosMarauder-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.ChaosRepressor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.ChaosRepressor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.ChaosRifleman-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.ChaosRifleman-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.ClassD-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.ClassD-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.CustomRole-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.CustomRole-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.FacilityGuard-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.FacilityGuard-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.None-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.None-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.NtfCaptain-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.NtfCaptain-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.NtfPrivate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.NtfPrivate-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.NtfSergeant-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.NtfSergeant-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.NtfSpecialist-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.NtfSpecialist-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Overwatch-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Overwatch-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.RoleManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.RoleManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scientist-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scientist-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp049-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp049-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp0492-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp0492-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp079-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp079-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp096-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp096-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp106-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp106-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp173-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp173-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Scp939-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Scp939-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Spectator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Spectator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.Tutorial-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.Tutorial-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.Roles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.Roles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PluginAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PluginAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Commands.TestCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Commands.TestCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Configs.AnotherConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Configs.AnotherConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Configs.MainConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Configs.MainConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Configs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Configs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.EventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.EventHandlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Factory.MyPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Factory.MyPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Factory.MyPlayerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Factory.MyPlayerFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Factory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.MainClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.MainClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Roles.CustomScp049.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Roles.CustomScp049.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.Roles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.Roles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TemplatePlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TemplatePlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "markdown/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "markdown/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "markdown/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "markdown/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

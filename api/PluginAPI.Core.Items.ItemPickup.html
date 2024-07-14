@@ -1,0 +1,741 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ItemPickup | NWApi Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ItemPickup | NWApi Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Lexa013/NwPluginAPI/new/master/apiSpec/new?filename=PluginAPI_Core_Items_ItemPickup.md&amp;value=---%0Auid%3A%20PluginAPI.Core.Items.ItemPickup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NWApi Doc">
+            NWApi Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PluginAPI.Core.Items.ItemPickup">
+
+
+
+  <h1 id="PluginAPI_Core_Items_ItemPickup" data-uid="PluginAPI.Core.Items.ItemPickup" class="text-break">
+Class ItemPickup  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PluginAPI.html">PluginAPI</a>.<a class="xref" href="PluginAPI.Core.html">Core</a>.<a class="xref" href="PluginAPI.Core.Items.html">Items</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PluginAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemPickup</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ItemPickup</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup__ctor_" data-uid="PluginAPI.Core.Items.ItemPickup.#ctor*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup__ctor_InventorySystem_Items_Pickups_ItemPickupBase_" data-uid="PluginAPI.Core.Items.ItemPickup.#ctor(InventorySystem.Items.Pickups.ItemPickupBase)">
+  ItemPickup(ItemPickupBase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemPickup(ItemPickupBase item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">ItemPickupBase</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_OriginalObject" data-uid="PluginAPI.Core.Items.ItemPickup.OriginalObject">
+  OriginalObject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The base-game object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ItemPickupBase OriginalObject</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ItemPickupBase</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_GameObject_" data-uid="PluginAPI.Core.Items.ItemPickup.GameObject*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_GameObject" data-uid="PluginAPI.Core.Items.ItemPickup.GameObject">
+  GameObject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's <span class="xref">UnityEngine.GameObject</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject GameObject { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_IsLocked_" data-uid="PluginAPI.Core.Items.ItemPickup.IsLocked*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_IsLocked" data-uid="PluginAPI.Core.Items.ItemPickup.IsLocked">
+  IsLocked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether or not the pickup is locked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLocked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_LastOwner_" data-uid="PluginAPI.Core.Items.ItemPickup.LastOwner*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_LastOwner" data-uid="PluginAPI.Core.Items.ItemPickup.LastOwner">
+  LastOwner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's previous owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player LastOwner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_PickupStandardPhysics_" data-uid="PluginAPI.Core.Items.ItemPickup.PickupStandardPhysics*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_PickupStandardPhysics" data-uid="PluginAPI.Core.Items.ItemPickup.PickupStandardPhysics">
+  PickupStandardPhysics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's <a class="xref" href="PluginAPI.Core.Items.ItemPickup.html#PluginAPI_Core_Items_ItemPickup_PickupStandardPhysics">PickupStandardPhysics</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PickupStandardPhysics PickupStandardPhysics { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PickupStandardPhysics</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Position_" data-uid="PluginAPI.Core.Items.ItemPickup.Position*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Position" data-uid="PluginAPI.Core.Items.ItemPickup.Position">
+  Position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Rigidbody_" data-uid="PluginAPI.Core.Items.ItemPickup.Rigidbody*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Rigidbody" data-uid="PluginAPI.Core.Items.ItemPickup.Rigidbody">
+  Rigidbody
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's <span class="xref">UnityEngine.Rigidbody</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rigidbody Rigidbody { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Rigidbody</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Rotation_" data-uid="PluginAPI.Core.Items.ItemPickup.Rotation*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Rotation" data-uid="PluginAPI.Core.Items.ItemPickup.Rotation">
+  Rotation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion Rotation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Serial_" data-uid="PluginAPI.Core.Items.ItemPickup.Serial*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Serial" data-uid="PluginAPI.Core.Items.ItemPickup.Serial">
+  Serial
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's serial.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort Serial { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Transform_" data-uid="PluginAPI.Core.Items.ItemPickup.Transform*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Transform" data-uid="PluginAPI.Core.Items.ItemPickup.Transform">
+  Transform
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's <span class="xref">UnityEngine.Rigidbody</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Transform { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Type_" data-uid="PluginAPI.Core.Items.ItemPickup.Type*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Type" data-uid="PluginAPI.Core.Items.ItemPickup.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pickup's <span class="xref">ItemType</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemType Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ItemType</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Weight_" data-uid="PluginAPI.Core.Items.ItemPickup.Weight*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Weight" data-uid="PluginAPI.Core.Items.ItemPickup.Weight">
+  Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the pickup's weight.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Create_" data-uid="PluginAPI.Core.Items.ItemPickup.Create*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Create_ItemType_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="PluginAPI.Core.Items.ItemPickup.Create(ItemType,UnityEngine.Vector3,UnityEngine.Quaternion)">
+  Create(ItemType, Vector3, Quaternion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="PluginAPI.Core.Items.ItemPickup.html">ItemPickup</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemPickup Create(ItemType item, Vector3 position, Quaternion rotation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">ItemType</span></dt>
+    <dd><p>The <span class="xref">ItemType</span>.</p>
+</dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The position.</p>
+</dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd><p>The rotation.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PluginAPI.Core.Items.ItemPickup.html">ItemPickup</a></dt>
+    <dd><p>The created <a class="xref" href="PluginAPI.Core.Items.ItemPickup.html">ItemPickup</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Destroy_" data-uid="PluginAPI.Core.Items.ItemPickup.Destroy*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Destroy" data-uid="PluginAPI.Core.Items.ItemPickup.Destroy">
+  Destroy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Destroys the pickup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Remove_" data-uid="PluginAPI.Core.Items.ItemPickup.Remove*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Remove_InventorySystem_Items_Pickups_ItemPickupBase_" data-uid="PluginAPI.Core.Items.ItemPickup.Remove(InventorySystem.Items.Pickups.ItemPickupBase)">
+  Remove(ItemPickupBase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Remove(ItemPickupBase item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">ItemPickupBase</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Items_ItemPickup_Spawn_" data-uid="PluginAPI.Core.Items.ItemPickup.Spawn*"></a>
+
+  <h3 id="PluginAPI_Core_Items_ItemPickup_Spawn" data-uid="PluginAPI.Core.Items.ItemPickup.Spawn">
+  Spawn()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spawns the pickup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spawn()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Items/ItemPickup.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,804 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MyPlayer | NWApi Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MyPlayer | NWApi Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Lexa013/NwPluginAPI/new/master/apiSpec/new?filename=TemplatePlugin_Factory_MyPlayer.md&amp;value=---%0Auid%3A%20TemplatePlugin.Factory.MyPlayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NWApi Doc">
+            NWApi Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="TemplatePlugin.Factory.MyPlayer">
+
+
+
+  <h1 id="TemplatePlugin_Factory_MyPlayer" data-uid="TemplatePlugin.Factory.MyPlayer" class="text-break">
+Class MyPlayer  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="TemplatePlugin.html">TemplatePlugin</a>.<a class="xref" href="TemplatePlugin.Factory.html">Factory</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>TemplatePlugin.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MyPlayer : Player, IPlayer, IEntity</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="PluginAPI.Core.Player.html">Player</a></div>
+      <div><span class="xref">MyPlayer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="PluginAPI.Core.Interfaces.IPlayer.html">IPlayer</a></div>
+      <div><a class="xref" href="PluginAPI.Core.Interfaces.IEntity.html">IEntity</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_PlayersUserIds">Player.PlayersUserIds</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Count">Player.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_NonVerifiedCount">Player.NonVerifiedCount</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ConnectionsCount">Player.ConnectionsCount</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetPlayers">Player.GetPlayers()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetPlayers__1">Player.GetPlayers&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_PluginAPI_Core_Interfaces_IGameComponent_PluginAPI_Core_Player__">Player.TryGet(IGameComponent, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_PluginAPI_Core_Interfaces_IGameComponent___0__">Player.TryGet&lt;T&gt;(IGameComponent, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_UnityEngine_GameObject_">Player.Get(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_UnityEngine_GameObject_">Player.Get&lt;T&gt;(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_UnityEngine_GameObject_PluginAPI_Core_Player__">Player.TryGet(GameObject, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_UnityEngine_GameObject___0__">Player.TryGet&lt;T&gt;(GameObject, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_ReferenceHub_">Player.Get(ReferenceHub)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_ReferenceHub_">Player.Get&lt;T&gt;(ReferenceHub)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_ReferenceHub_PluginAPI_Core_Player__">Player.TryGet(ReferenceHub, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_ReferenceHub___0__">Player.TryGet&lt;T&gt;(ReferenceHub, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_Mirror_NetworkIdentity_">Player.Get(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_Mirror_NetworkIdentity_">Player.Get&lt;T&gt;(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_Mirror_NetworkIdentity_PluginAPI_Core_Player__">Player.TryGet(NetworkIdentity, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_Mirror_NetworkIdentity___0__">Player.TryGet&lt;T&gt;(NetworkIdentity, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetByName_System_String_">Player.GetByName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetByName__1_System_String_">Player.GetByName&lt;T&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGetByName_System_String_PluginAPI_Core_Player__">Player.TryGetByName(string, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGetByName__1_System_String___0__">Player.TryGetByName&lt;T&gt;(string, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_System_Int32_">Player.Get(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_System_Int32_">Player.Get&lt;T&gt;(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_System_Int32_PluginAPI_Core_Player__">Player.TryGet(int, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_System_Int32___0__">Player.TryGet&lt;T&gt;(int, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_System_String_">Player.Get(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_System_String_">Player.Get&lt;T&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_System_String_PluginAPI_Core_Player__">Player.TryGet(string, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_System_String___0__">Player.TryGet&lt;T&gt;(string, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_System_UInt32_">Player.Get(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_System_UInt32_">Player.Get&lt;T&gt;(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_System_UInt32_PluginAPI_Core_Player__">Player.TryGet(uint, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_System_UInt32___0__">Player.TryGet&lt;T&gt;(uint, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_CommandSystem_ICommandSender_">Player.Get(ICommandSender)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_CommandSystem_ICommandSender_">Player.Get&lt;T&gt;(ICommandSender)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_CommandSystem_ICommandSender_PluginAPI_Core_Player__">Player.TryGet(ICommandSender, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_CommandSystem_ICommandSender___0__">Player.TryGet&lt;T&gt;(ICommandSender, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReferenceHub">Player.ReferenceHub</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GameObject">Player.GameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_NetworkId">Player.NetworkId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_PlayerId">Player.PlayerId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Nickname">Player.Nickname</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DisplayNickname">Player.DisplayNickname</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_LogName">Player.LogName</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsOffline">Player.IsOffline</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_UserId">Player.UserId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IpAddress">Player.IpAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Role">Player.Role</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RoleBase">Player.RoleBase</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_CustomInfo">Player.CustomInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Health">Player.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_MaxHealth">Player.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ArtificialHealth">Player.ArtificialHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_MaxArtificalHealth">Player.MaxArtificalHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoteAdminAccess">Player.RemoteAdminAccess</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DoNotTrack">Player.DoNotTrack</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsOverwatchEnabled">Player.IsOverwatchEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_PlayerInfo">Player.PlayerInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_CurrentItem">Player.CurrentItem</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Room">Player.Room</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Zone">Player.Zone</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Items">Player.Items</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_AmmoBag">Player.AmmoBag</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RoleColor">Player.RoleColor</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RoleName">Player.RoleName</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_UnitName">Player.UnitName</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_UnitId">Player.UnitId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_HasReservedSlot">Player.HasReservedSlot</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Velocity">Player.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_VoiceModule">Player.VoiceModule</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_VoiceChannel">Player.VoiceChannel</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsWithoutItems">Player.IsWithoutItems</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsOutOfAmmo">Player.IsOutOfAmmo</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsDisarmed">Player.IsDisarmed</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsMuted">Player.IsMuted</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsIntercomMuted">Player.IsIntercomMuted</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsUsingVoiceChat">Player.IsUsingVoiceChat</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsGlobalModerator">Player.IsGlobalModerator</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsNorthwoodStaff">Player.IsNorthwoodStaff</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsBypassEnabled">Player.IsBypassEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsGodModeEnabled">Player.IsGodModeEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsNoclipEnabled">Player.IsNoclipEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsInventoryFull">Player.IsInventoryFull</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Team">Player.Team</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsSCP">Player.IsSCP</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsHuman">Player.IsHuman</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsNTF">Player.IsNTF</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsChaos">Player.IsChaos</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsTutorial">Player.IsTutorial</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsAlive">Player.IsAlive</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsReady">Player.IsReady</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsServer">Player.IsServer</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DisarmedBy">Player.DisarmedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Connection">Player.Connection</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Camera">Player.Camera</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TemporaryData">Player.TemporaryData</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_EffectsManager">Player.EffectsManager</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DamageManager">Player.DamageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Position">Player.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Rotation">Player.Rotation</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_StaminaRemaining">Player.StaminaRemaining</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SendBroadcast_System_String_System_UInt16_Broadcast_BroadcastFlags_System_Boolean_">Player.SendBroadcast(string, ushort, Broadcast.BroadcastFlags, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ClearBroadcasts">Player.ClearBroadcasts()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SendConsoleMessage_System_String_System_String_">Player.SendConsoleMessage(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Ban_PluginAPI_Core_Player_System_String_System_Int64_">Player.Ban(Player, string, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Ban_System_String_System_Int64_">Player.Ban(string, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kick_PluginAPI_Core_Player_System_String_">Player.Kick(Player, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kick_System_String_">Player.Kick(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Mute_System_Boolean_">Player.Mute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Unmute_System_Boolean_">Player.Unmute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IntercomMute_System_Boolean_">Player.IntercomMute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IntercomUnmute_System_Boolean_">Player.IntercomUnmute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_AddAmmo_ItemType_System_UInt16_">Player.AddAmmo(ItemType, ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_AddItem_ItemType_">Player.AddItem(ItemType)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_PluginAPI_Core_Items_Item_">Player.RemoveItem(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_PluginAPI_Core_Items_ItemPickup_">Player.RemoveItem(ItemPickup)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_InventorySystem_Items_Pickups_ItemPickupBase_">Player.RemoveItem(ItemPickupBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_InventorySystem_Items_ItemBase_">Player.RemoveItem(ItemBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItems_ItemType_System_Int32_">Player.RemoveItems(ItemType, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropItem_PluginAPI_Core_Items_Item_">Player.DropItem(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropItem_InventorySystem_Items_ItemBase_">Player.DropItem(ItemBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropItem_System_UInt16_">Player.DropItem(ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SetAmmo_ItemType_System_UInt16_">Player.SetAmmo(ItemType, ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetAmmo_ItemType_">Player.GetAmmo(ItemType)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropAmmo_ItemType_System_UInt16_System_Boolean_">Player.DropAmmo(ItemType, ushort, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropEverything">Player.DropEverything()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ClearInventory_System_Boolean_System_Boolean_">Player.ClearInventory(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SetGroup_UserGroup_">Player.SetGroup(UserGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Heal_System_Single_">Player.Heal(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SetRole_PlayerRoles_RoleTypeId_PlayerRoles_RoleChangeReason_">Player.SetRole(RoleTypeId, RoleChangeReason)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Disconnect_System_String_">Player.Disconnect(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReceiveHint_System_String_System_Single_">Player.ReceiveHint(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReceiveHint_System_String_Hints_HintEffect___System_Single_">Player.ReceiveHint(string, HintEffect[], float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReceiveHitMarker_System_Single_">Player.ReceiveHitMarker(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetStatModule__1">Player.GetStatModule&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RedirectToServer_System_UInt16_">Player.RedirectToServer(ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Reconnect_System_Single_System_Boolean_">Player.Reconnect(float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kill">Player.Kill()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kill_System_String_System_String_">Player.Kill(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Damage_System_Single_System_String_System_String_">Player.Damage(float, string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Damage_System_Single_PluginAPI_Core_Player_UnityEngine_Vector3_System_Int32_">Player.Damage(float, Player, Vector3, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Damage_PlayerStatsSystem_DamageHandlerBase_">Player.Damage(DamageHandlerBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnStart">Player.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnUpdate">Player.OnUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnLateUpdate">Player.OnLateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnFixedUpdate">Player.OnFixedUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetComponent__1_System_Boolean_">Player.GetComponent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGetComponent__1___0__System_Boolean_">Player.TryGetComponent&lt;T&gt;(out T, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TemplatePlugin_Factory_MyPlayer__ctor_" data-uid="TemplatePlugin.Factory.MyPlayer.#ctor*"></a>
+
+  <h3 id="TemplatePlugin_Factory_MyPlayer__ctor_PluginAPI_Core_Interfaces_IGameComponent_" data-uid="TemplatePlugin.Factory.MyPlayer.#ctor(PluginAPI.Core.Interfaces.IGameComponent)">
+  MyPlayer(IGameComponent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyPlayer(IGameComponent component)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <a class="xref" href="PluginAPI.Core.Interfaces.IGameComponent.html">IGameComponent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="TemplatePlugin_Factory_MyPlayer_Test_" data-uid="TemplatePlugin.Factory.MyPlayer.Test*"></a>
+
+  <h3 id="TemplatePlugin_Factory_MyPlayer_Test" data-uid="TemplatePlugin.Factory.MyPlayer.Test">
+  Test
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Test { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="TemplatePlugin_Factory_MyPlayer_TestParam_" data-uid="TemplatePlugin.Factory.MyPlayer.TestParam*"></a>
+
+  <h3 id="TemplatePlugin_Factory_MyPlayer_TestParam" data-uid="TemplatePlugin.Factory.MyPlayer.TestParam">
+  TestParam
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TestParam { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="TemplatePlugin_Factory_MyPlayer_OnDestroy_" data-uid="TemplatePlugin.Factory.MyPlayer.OnDestroy*"></a>
+
+  <h3 id="TemplatePlugin_Factory_MyPlayer_OnDestroy" data-uid="TemplatePlugin.Factory.MyPlayer.OnDestroy">
+  OnDestroy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TemplatePlugin_Factory_MyPlayer_OnRaCommand_" data-uid="TemplatePlugin.Factory.MyPlayer.OnRaCommand*"></a>
+
+  <h3 id="TemplatePlugin_Factory_MyPlayer_OnRaCommand_CommandSystem_ICommandSender_System_String_System_String___" data-uid="TemplatePlugin.Factory.MyPlayer.OnRaCommand(CommandSystem.ICommandSender,System.String,System.String[])">
+  OnRaCommand(ICommandSender, string, string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PluginEvent(ServerEventType.RemoteAdminCommand)]
+public void OnRaCommand(ICommandSender plr, string cmd, string[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>plr</code> <span class="xref">ICommandSender</span></dt>
+    <dd></dd>
+    <dt><code>cmd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Lexa013/NwPluginAPI/blob/master/TemplatePlugin/Factory/MyPlayer.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

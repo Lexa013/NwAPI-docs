@@ -1,0 +1,547 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enum ServerEventType | NWApi Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enum ServerEventType | NWApi Doc ">
+      
+      <meta name="description" content="Represents server event types.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Lexa013/NwPluginAPI/new/master/apiSpec/new?filename=PluginAPI_Enums_ServerEventType.md&amp;value=---%0Auid%3A%20PluginAPI.Enums.ServerEventType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NWApi Doc">
+            NWApi Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PluginAPI.Enums.ServerEventType">
+
+
+
+
+  <h1 id="PluginAPI_Enums_ServerEventType" data-uid="PluginAPI.Enums.ServerEventType" class="text-break">
+Enum ServerEventType  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Enums/ServerEventType.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PluginAPI.html">PluginAPI</a>.<a class="xref" href="PluginAPI.Enums.html">Enums</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PluginAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents server event types.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum ServerEventType</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="PluginAPI_Enums_ServerEventType_BanIssued"><code>BanIssued = 102</code></dt>
+    <dd><p>Event executed when a new ban issued and saved in the files.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_BanRevoked"><code>BanRevoked = 103</code></dt>
+    <dd><p>Event executed when an existing ban is revoked and removed from the files.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_BanUpdated"><code>BanUpdated = 107</code></dt>
+    <dd><p>Event executed when an existing ban is updated.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_CassieAnnouncesScpTermination"><code>CassieAnnouncesScpTermination = 124</code></dt>
+    <dd><p>Executed before CASSIE announces an SCP termination</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_ConsoleCommand"><code>ConsoleCommand = 69</code></dt>
+    <dd><p>Event executed when using console command.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_ConsoleCommandExecuted"><code>ConsoleCommandExecuted = 106</code></dt>
+    <dd><p>Event executed when console command completes.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_GeneratorActivated"><code>GeneratorActivated = 8</code></dt>
+    <dd><p>Executed when generator activates.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_GrenadeExploded"><code>GrenadeExploded = 6</code></dt>
+    <dd><p>Executed when grenade explodes.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_ItemSpawned"><code>ItemSpawned = 7</code></dt>
+    <dd><p>Executed when item is spawned while generation of map.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_LczDecontaminationAnnouncement"><code>LczDecontaminationAnnouncement = 4</code></dt>
+    <dd><p>Executed when information about decontamination is annoucement.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_LczDecontaminationStart"><code>LczDecontaminationStart = 3</code></dt>
+    <dd><p>Executed when decontamination in LCZ starts.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_MapGenerated"><code>MapGenerated = 5</code></dt>
+    <dd><p>Executed when map generates.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_None"><code>None = 129</code></dt>
+    <dd></dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlaceBlood"><code>PlaceBlood = 9</code></dt>
+    <dd><p>Executed when blood is placed.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlaceBulletHole"><code>PlaceBulletHole = 10</code></dt>
+    <dd><p>Executed when bullet hole is placed.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerActivateGenerator"><code>PlayerActivateGenerator = 11</code></dt>
+    <dd><p>Executed when player activated generator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerAimWeapon"><code>PlayerAimWeapon = 12</code></dt>
+    <dd><p>Executed when player aims weapon</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerBanned"><code>PlayerBanned = 13</code></dt>
+    <dd><p>Executed when player gets banned.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerCancelUsingItem"><code>PlayerCancelUsingItem = 14</code></dt>
+    <dd><p>Executed when player cancels using item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerChangeItem"><code>PlayerChangeItem = 15</code></dt>
+    <dd><p>Executed when player changes current item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerChangeRadioRange"><code>PlayerChangeRadioRange = 16</code></dt>
+    <dd><p>Executed when player changes range in radio.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerChangeRole"><code>PlayerChangeRole = 42</code></dt>
+    <dd><p>Executed when player changes role.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerChangeSpectator"><code>PlayerChangeSpectator = 17</code></dt>
+    <dd><p>Executed when player changes spectating player.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerCheaterReport"><code>PlayerCheaterReport = 56</code></dt>
+    <dd><p>Executed when player reports someone for cheating.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerCheckReservedSlot"><code>PlayerCheckReservedSlot = 66</code></dt>
+    <dd><p>Event executed when joining to server for reserved slot verification.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerCloseGenerator"><code>PlayerCloseGenerator = 18</code></dt>
+    <dd><p>Executed when player closes generator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerCoinFlip"><code>PlayerCoinFlip = 109</code></dt>
+    <dd><p>Executed when player flips the coin.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDamage"><code>PlayerDamage = 28</code></dt>
+    <dd><p>Executed when player damages someone.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDamagedShootingTarget"><code>PlayerDamagedShootingTarget = 19</code></dt>
+    <dd><p>Executed when player damages shooting target.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDamagedWindow"><code>PlayerDamagedWindow = 20</code></dt>
+    <dd><p>Executed when player damages window.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDeactivatedGenerator"><code>PlayerDeactivatedGenerator = 21</code></dt>
+    <dd><p>Executed when player deactivates generator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDeath"><code>PlayerDeath = 127</code></dt>
+    <dd><p>Executed after a player dies.
+<remarks>
+Parameters: <a class="xref" href="PluginAPI.Core.Interfaces.IPlayer.html">IPlayer</a> player, <a class="xref" href="PluginAPI.Core.Interfaces.IPlayer.html">IPlayer</a> attacker, <span class="xref">PlayerStatsSystem.DamageHandlerBase</span> damageHandler.
+Event is NOT cancellable.
+</remarks></p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDropAmmo"><code>PlayerDropAmmo = 22</code></dt>
+    <dd><p>Executed when player drops ammo.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDropItem"><code>PlayerDropItem = 23</code></dt>
+    <dd><p>Executed when player drops item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDropedpItem"><code>PlayerDropedpItem = 130</code></dt>
+    <dd><p>Executed when player dropped item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDroppedAmmo"><code>PlayerDroppedAmmo = 131</code></dt>
+    <dd><p>Executed when player dropped ammo.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDryfireWeapon"><code>PlayerDryfireWeapon = 24</code></dt>
+    <dd><p>Executed when player dryfires weapon.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerDying"><code>PlayerDying = 2</code></dt>
+    <dd><p>Executed before a player dies.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerEnterPocketDimension"><code>PlayerEnterPocketDimension = 74</code></dt>
+    <dd><p>Event executed when player tries enter pocket dimension.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerEscape"><code>PlayerEscape = 25</code></dt>
+    <dd><p>Executed when player escapes.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerExitPocketDimension"><code>PlayerExitPocketDimension = 75</code></dt>
+    <dd><p>Event executed when player tries to escape from pocket dimension.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerGameConsoleCommand"><code>PlayerGameConsoleCommand = 68</code></dt>
+    <dd><p>Event executed when using game console command.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerGameConsoleCommandExecuted"><code>PlayerGameConsoleCommandExecuted = 105</code></dt>
+    <dd><p>Event executed when game console command completes.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerGetGroup"><code>PlayerGetGroup = 125</code></dt>
+    <dd><p>Executed when UserGroup of a player is obtained.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerHandcuff"><code>PlayerHandcuff = 26</code></dt>
+    <dd><p>Executed when player handcuffs other player.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerInteractDoor"><code>PlayerInteractDoor = 99</code></dt>
+    <dd><p>Event executed when player tries to interact with door.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerInteractElevator"><code>PlayerInteractElevator = 29</code></dt>
+    <dd><p>Executed when player interacts with elevator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerInteractGenerator"><code>PlayerInteractGenerator = 110</code></dt>
+    <dd><p>Executed when player interacts with a generator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerInteractLocker"><code>PlayerInteractLocker = 30</code></dt>
+    <dd><p>Executed when player interacts with locker.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerInteractScp330"><code>PlayerInteractScp330 = 31</code></dt>
+    <dd><p>Executed when player interacts with SCP330.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerInteractShootingTarget"><code>PlayerInteractShootingTarget = 32</code></dt>
+    <dd><p>Executed when player interacts with shooting target.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerJoined"><code>PlayerJoined = 0</code></dt>
+    <dd><p>Executed when player is verified.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerKicked"><code>PlayerKicked = 33</code></dt>
+    <dd><p>Executed when player gets kicked from server.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerLeft"><code>PlayerLeft = 1</code></dt>
+    <dd><p>Executed when player object is destroyed.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerMakeNoise"><code>PlayerMakeNoise = 34</code></dt>
+    <dd><p>Executed when player makes noise.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerMuted"><code>PlayerMuted = 64</code></dt>
+    <dd><p>Event executed when player is muted.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerOpenGenerator"><code>PlayerOpenGenerator = 35</code></dt>
+    <dd><p>Executed when player opens generator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerPickupAmmo"><code>PlayerPickupAmmo = 36</code></dt>
+    <dd><p>Executed when player pickups ammo.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerPickupArmor"><code>PlayerPickupArmor = 37</code></dt>
+    <dd><p>Executed when player pickups armor.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerPickupScp330"><code>PlayerPickupScp330 = 38</code></dt>
+    <dd><p>Executed when player pickups SCP330.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerPreCoinFlip"><code>PlayerPreCoinFlip = 108</code></dt>
+    <dd><p>Executed before player flips the coin.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerPreauth"><code>PlayerPreauth = 39</code></dt>
+    <dd><p>Executed when player preauths.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerRadioToggle"><code>PlayerRadioToggle = 128</code></dt>
+    <dd><p>Executed when player enables or disables the radio.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerReceiveEffect"><code>PlayerReceiveEffect = 40</code></dt>
+    <dd><p>Executed when player receives effect.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerReloadWeapon"><code>PlayerReloadWeapon = 41</code></dt>
+    <dd><p>Executed when player reloads weapon.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerRemoveHandcuffs"><code>PlayerRemoveHandcuffs = 27</code></dt>
+    <dd><p>Executed when player removes handcuffs from other player.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerReport"><code>PlayerReport = 55</code></dt>
+    <dd><p>Executed when player reports someone for breaking server rules.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerSearchPickup"><code>PlayerSearchPickup = 43</code></dt>
+    <dd><p>Executed when player searches pickup.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerSearchedPickup"><code>PlayerSearchedPickup = 44</code></dt>
+    <dd><p>Executed when player searched pickup.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerShotWeapon"><code>PlayerShotWeapon = 45</code></dt>
+    <dd><p>Executed when player shots weapon.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerSpawn"><code>PlayerSpawn = 46</code></dt>
+    <dd><p>Executed when player spawns.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerThrowItem"><code>PlayerThrowItem = 48</code></dt>
+    <dd><p>Executed when player throws item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerThrowProjectile"><code>PlayerThrowProjectile = 76</code></dt>
+    <dd><p>Event executed when player tries to throw projectile like grenades.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerToggleFlashlight"><code>PlayerToggleFlashlight = 49</code></dt>
+    <dd><p>Executed when player toggles flashlight.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUnloadWeapon"><code>PlayerUnloadWeapon = 50</code></dt>
+    <dd><p>Executed when player unloads weapon.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUnlockGenerator"><code>PlayerUnlockGenerator = 51</code></dt>
+    <dd><p>Executed when player unlocks generator.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUnmuted"><code>PlayerUnmuted = 65</code></dt>
+    <dd><p>Event executed when player is unmuted.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUseHotkey"><code>PlayerUseHotkey = 53</code></dt>
+    <dd><p>Executed when player uses hotkey.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUseItem"><code>PlayerUseItem = 54</code></dt>
+    <dd><p>Executed when player starts using item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUsedItem"><code>PlayerUsedItem = 52</code></dt>
+    <dd><p>Executed when player used item.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUsingIntercom"><code>PlayerUsingIntercom = 126</code></dt>
+    <dd><p>Executed while a player is using intercom.
+<remarks>
+Params: <a class="xref" href="PluginAPI.Core.Interfaces.IPlayer.html">IPlayer</a> player, <span class="xref">PlayerRoles.Voice.IntercomState</span> intercomState
+</remarks></p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_PlayerUsingRadio"><code>PlayerUsingRadio = 123</code></dt>
+    <dd><p>Executed when a player drain radio battery.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RagdollSpawn"><code>RagdollSpawn = 47</code></dt>
+    <dd><p>Executed when ragdoll spawns.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RemoteAdminCommand"><code>RemoteAdminCommand = 67</code></dt>
+    <dd><p>Event executed when using remote admin command.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RemoteAdminCommandExecuted"><code>RemoteAdminCommandExecuted = 104</code></dt>
+    <dd><p>Event executed when remote admin command completes.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RoundEnd"><code>RoundEnd = 57</code></dt>
+    <dd><p>Executed when round ended.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RoundEndConditionsCheck"><code>RoundEndConditionsCheck = 111</code></dt>
+    <dd><p>Executed when round end conditions are checked.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RoundRestart"><code>RoundRestart = 58</code></dt>
+    <dd><p>Executed when round restarts.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_RoundStart"><code>RoundStart = 59</code></dt>
+    <dd><p>Executed when round starts.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp049ResurrectBody"><code>Scp049ResurrectBody = 97</code></dt>
+    <dd><p>Event executed when SCP-049 resurrects body.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp049StartResurrectingBody"><code>Scp049StartResurrectingBody = 98</code></dt>
+    <dd><p>Event executed when SCP-049 starts resurrecting body.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079BlackoutRoom"><code>Scp079BlackoutRoom = 96</code></dt>
+    <dd><p>Event executed when SCP-079 blackouts room.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079BlackoutZone"><code>Scp079BlackoutZone = 95</code></dt>
+    <dd><p>Event executed when SCP-079 blackouts zone.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079CameraChanged"><code>Scp079CameraChanged = 115</code></dt>
+    <dd><p>Executed after a SCP-079 changes camera.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079CancelRoomLockdown"><code>Scp079CancelRoomLockdown = 101</code></dt>
+    <dd><p>Event executed when SCP-079 cancels room lockdown.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079GainExperience"><code>Scp079GainExperience = 89</code></dt>
+    <dd><p>Event executed when SCP-079 gains experience.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079LevelUpTier"><code>Scp079LevelUpTier = 90</code></dt>
+    <dd><p>Event executed when SCP-079 level ups to new tier.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079LockDoor"><code>Scp079LockDoor = 93</code></dt>
+    <dd><p>Event executed when SCP-079 locks door.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079LockdownRoom"><code>Scp079LockdownRoom = 92</code></dt>
+    <dd><p>Event executed when SCP-079 lockdowns room.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079UnlockDoor"><code>Scp079UnlockDoor = 94</code></dt>
+    <dd><p>Event executed when SCP-079 unlocks door.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp079UseTesla"><code>Scp079UseTesla = 91</code></dt>
+    <dd><p>Event executed when SCP-079 tries to use tesla.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096AddingTarget"><code>Scp096AddingTarget = 116</code></dt>
+    <dd><p>Executes when a player looks at SCP-096.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096ChangeState"><code>Scp096ChangeState = 118</code></dt>
+    <dd><p>Executed when SCP-096 changes state.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096Charging"><code>Scp096Charging = 119</code></dt>
+    <dd><p>Executed when SCP-096 charges.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096Enraging"><code>Scp096Enraging = 117</code></dt>
+    <dd><p>Executed when a SCP096 gets angered.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096PryingGate"><code>Scp096PryingGate = 120</code></dt>
+    <dd><p>Executed when SCP-096 begins prying a gate.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096StartCrying"><code>Scp096StartCrying = 122</code></dt>
+    <dd><p>Executed when SCP-096 cancels its TryToNotCry ability.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp096TryNotCry"><code>Scp096TryNotCry = 121</code></dt>
+    <dd><p>Executed when SCP-096 tries not to cry.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp106Stalking"><code>Scp106Stalking = 72</code></dt>
+    <dd><p>Event executed when SCP-106 tries to start/stop stalk mode.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp106TeleportPlayer"><code>Scp106TeleportPlayer = 81</code></dt>
+    <dd><p>Event executed when SCP-106 tries to teleport player.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp173BreakneckSpeeds"><code>Scp173BreakneckSpeeds = 84</code></dt>
+    <dd><p>Event executed when SCP-173 tries to start/stop brackneck speeds.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp173CreateTantrum"><code>Scp173CreateTantrum = 83</code></dt>
+    <dd><p>Event executed when SCP-173 tries to create tantrum.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp173NewObserver"><code>Scp173NewObserver = 85</code></dt>
+    <dd><p>Event executed when SCP-173 is seen by player.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp173PlaySound"><code>Scp173PlaySound = 82</code></dt>
+    <dd><p>Event executed when SCP-173 tries to play sound.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp173SnapPlayer"><code>Scp173SnapPlayer = 100</code></dt>
+    <dd><p>Event executed when SCP-173 tries to snap player neck.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914Activate"><code>Scp914Activate = 77</code></dt>
+    <dd><p>Event executed when player tries to activate SCP 914.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914InventoryItemUpgraded"><code>Scp914InventoryItemUpgraded = 113</code></dt>
+    <dd><p>Executed after SCP-914 upgrades items in a player inventory.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914KnobChange"><code>Scp914KnobChange = 78</code></dt>
+    <dd><p>Event executed when player tries to change SCP 914 knob.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914PickupUpgraded"><code>Scp914PickupUpgraded = 112</code></dt>
+    <dd><p>Executed after a pickup is upgraded by the SCP-914.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914ProcessPlayer"><code>Scp914ProcessPlayer = 114</code></dt>
+    <dd><p>Executed when a player is processed by the SCP-914</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914UpgradeInventory"><code>Scp914UpgradeInventory = 79</code></dt>
+    <dd><p>Event executed when SCP 914 upgrades player inventory.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp914UpgradePickup"><code>Scp914UpgradePickup = 80</code></dt>
+    <dd><p>Event executed when SCP 914 upgrades pickup.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp939Attack"><code>Scp939Attack = 88</code></dt>
+    <dd><p>Event executed when SCP-939 tries to attack something.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp939CreateAmnesticCloud"><code>Scp939CreateAmnesticCloud = 86</code></dt>
+    <dd><p>Event executed when SCP-939 tries to create amnestic cloud.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_Scp939Lunge"><code>Scp939Lunge = 87</code></dt>
+    <dd><p>Event executed when SCP-939 tries to lunge.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_TeamRespawn"><code>TeamRespawn = 71</code></dt>
+    <dd><p>Event executed when spawning next team.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_TeamRespawnSelected"><code>TeamRespawnSelected = 70</code></dt>
+    <dd><p>Event executed when selecting next team to spawn.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_WaitingForPlayers"><code>WaitingForPlayers = 60</code></dt>
+    <dd><p>Executed when server waits for players.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_WarheadDetonation"><code>WarheadDetonation = 63</code></dt>
+    <dd><p>Event executed when warhead detonates.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_WarheadStart"><code>WarheadStart = 61</code></dt>
+    <dd><p>Event executed when warhead is started.</p>
+</dd>
+    <dt id="PluginAPI_Enums_ServerEventType_WarheadStop"><code>WarheadStop = 62</code></dt>
+    <dd><p>Event executed when warhead is stopped.</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Enums/ServerEventType.cs/#L36" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

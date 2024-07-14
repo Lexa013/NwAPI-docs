@@ -1,0 +1,1980 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Server | NWApi Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Server | NWApi Doc ">
+      
+      <meta name="description" content="Represents the server.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Lexa013/NwPluginAPI/new/master/apiSpec/new?filename=PluginAPI_Core_Server.md&amp;value=---%0Auid%3A%20PluginAPI.Core.Server%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NWApi Doc">
+            NWApi Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PluginAPI.Core.Server">
+
+
+
+  <h1 id="PluginAPI_Core_Server" data-uid="PluginAPI.Core.Server" class="text-break">
+Class Server  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PluginAPI.html">PluginAPI</a>.<a class="xref" href="PluginAPI.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PluginAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents the server.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Server : Player, IPlayer, IEntity</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="PluginAPI.Core.Player.html">Player</a></div>
+      <div><span class="xref">Server</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="PluginAPI.Core.Interfaces.IPlayer.html">IPlayer</a></div>
+      <div><a class="xref" href="PluginAPI.Core.Interfaces.IEntity.html">IEntity</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_PlayersUserIds">Player.PlayersUserIds</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Count">Player.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_NonVerifiedCount">Player.NonVerifiedCount</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ConnectionsCount">Player.ConnectionsCount</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetPlayers">Player.GetPlayers()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetPlayers__1">Player.GetPlayers&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_PluginAPI_Core_Interfaces_IGameComponent_PluginAPI_Core_Player__">Player.TryGet(IGameComponent, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_PluginAPI_Core_Interfaces_IGameComponent___0__">Player.TryGet&lt;T&gt;(IGameComponent, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_UnityEngine_GameObject_">Player.Get(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_UnityEngine_GameObject_">Player.Get&lt;T&gt;(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_UnityEngine_GameObject_PluginAPI_Core_Player__">Player.TryGet(GameObject, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_UnityEngine_GameObject___0__">Player.TryGet&lt;T&gt;(GameObject, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_ReferenceHub_">Player.Get(ReferenceHub)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_ReferenceHub_">Player.Get&lt;T&gt;(ReferenceHub)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_ReferenceHub_PluginAPI_Core_Player__">Player.TryGet(ReferenceHub, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_ReferenceHub___0__">Player.TryGet&lt;T&gt;(ReferenceHub, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_Mirror_NetworkIdentity_">Player.Get(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_Mirror_NetworkIdentity_">Player.Get&lt;T&gt;(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_Mirror_NetworkIdentity_PluginAPI_Core_Player__">Player.TryGet(NetworkIdentity, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_Mirror_NetworkIdentity___0__">Player.TryGet&lt;T&gt;(NetworkIdentity, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetByName_System_String_">Player.GetByName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetByName__1_System_String_">Player.GetByName&lt;T&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGetByName_System_String_PluginAPI_Core_Player__">Player.TryGetByName(string, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGetByName__1_System_String___0__">Player.TryGetByName&lt;T&gt;(string, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_System_Int32_">Player.Get(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_System_Int32_">Player.Get&lt;T&gt;(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_System_Int32_PluginAPI_Core_Player__">Player.TryGet(int, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_System_Int32___0__">Player.TryGet&lt;T&gt;(int, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_System_String_">Player.Get(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_System_String_">Player.Get&lt;T&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_System_String_PluginAPI_Core_Player__">Player.TryGet(string, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_System_String___0__">Player.TryGet&lt;T&gt;(string, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_System_UInt32_">Player.Get(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_System_UInt32_">Player.Get&lt;T&gt;(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_System_UInt32_PluginAPI_Core_Player__">Player.TryGet(uint, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_System_UInt32___0__">Player.TryGet&lt;T&gt;(uint, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get_CommandSystem_ICommandSender_">Player.Get(ICommandSender)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Get__1_CommandSystem_ICommandSender_">Player.Get&lt;T&gt;(ICommandSender)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet_CommandSystem_ICommandSender_PluginAPI_Core_Player__">Player.TryGet(ICommandSender, out Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGet__1_CommandSystem_ICommandSender___0__">Player.TryGet&lt;T&gt;(ICommandSender, out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReferenceHub">Player.ReferenceHub</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GameObject">Player.GameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_NetworkId">Player.NetworkId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_PlayerId">Player.PlayerId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Nickname">Player.Nickname</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DisplayNickname">Player.DisplayNickname</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_LogName">Player.LogName</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsOffline">Player.IsOffline</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_UserId">Player.UserId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IpAddress">Player.IpAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Role">Player.Role</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RoleBase">Player.RoleBase</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_CustomInfo">Player.CustomInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Health">Player.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_MaxHealth">Player.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ArtificialHealth">Player.ArtificialHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_MaxArtificalHealth">Player.MaxArtificalHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoteAdminAccess">Player.RemoteAdminAccess</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DoNotTrack">Player.DoNotTrack</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsOverwatchEnabled">Player.IsOverwatchEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_PlayerInfo">Player.PlayerInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_CurrentItem">Player.CurrentItem</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Room">Player.Room</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Zone">Player.Zone</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Items">Player.Items</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_AmmoBag">Player.AmmoBag</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RoleColor">Player.RoleColor</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RoleName">Player.RoleName</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_UnitName">Player.UnitName</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_UnitId">Player.UnitId</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_HasReservedSlot">Player.HasReservedSlot</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Velocity">Player.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_VoiceModule">Player.VoiceModule</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_VoiceChannel">Player.VoiceChannel</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsWithoutItems">Player.IsWithoutItems</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsOutOfAmmo">Player.IsOutOfAmmo</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsDisarmed">Player.IsDisarmed</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsMuted">Player.IsMuted</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsIntercomMuted">Player.IsIntercomMuted</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsUsingVoiceChat">Player.IsUsingVoiceChat</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsGlobalModerator">Player.IsGlobalModerator</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsNorthwoodStaff">Player.IsNorthwoodStaff</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsBypassEnabled">Player.IsBypassEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsGodModeEnabled">Player.IsGodModeEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsNoclipEnabled">Player.IsNoclipEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsInventoryFull">Player.IsInventoryFull</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Team">Player.Team</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsSCP">Player.IsSCP</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsHuman">Player.IsHuman</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsNTF">Player.IsNTF</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsChaos">Player.IsChaos</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsTutorial">Player.IsTutorial</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsAlive">Player.IsAlive</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsReady">Player.IsReady</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IsServer">Player.IsServer</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DisarmedBy">Player.DisarmedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Connection">Player.Connection</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Camera">Player.Camera</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TemporaryData">Player.TemporaryData</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_EffectsManager">Player.EffectsManager</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DamageManager">Player.DamageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Position">Player.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Rotation">Player.Rotation</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_StaminaRemaining">Player.StaminaRemaining</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SendConsoleMessage_System_String_System_String_">Player.SendConsoleMessage(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Ban_PluginAPI_Core_Player_System_String_System_Int64_">Player.Ban(Player, string, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Ban_System_String_System_Int64_">Player.Ban(string, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kick_PluginAPI_Core_Player_System_String_">Player.Kick(Player, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kick_System_String_">Player.Kick(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Mute_System_Boolean_">Player.Mute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Unmute_System_Boolean_">Player.Unmute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IntercomMute_System_Boolean_">Player.IntercomMute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_IntercomUnmute_System_Boolean_">Player.IntercomUnmute(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_AddAmmo_ItemType_System_UInt16_">Player.AddAmmo(ItemType, ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_AddItem_ItemType_">Player.AddItem(ItemType)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_PluginAPI_Core_Items_Item_">Player.RemoveItem(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_PluginAPI_Core_Items_ItemPickup_">Player.RemoveItem(ItemPickup)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_InventorySystem_Items_Pickups_ItemPickupBase_">Player.RemoveItem(ItemPickupBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItem_InventorySystem_Items_ItemBase_">Player.RemoveItem(ItemBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RemoveItems_ItemType_System_Int32_">Player.RemoveItems(ItemType, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropItem_PluginAPI_Core_Items_Item_">Player.DropItem(Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropItem_InventorySystem_Items_ItemBase_">Player.DropItem(ItemBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropItem_System_UInt16_">Player.DropItem(ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SetAmmo_ItemType_System_UInt16_">Player.SetAmmo(ItemType, ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetAmmo_ItemType_">Player.GetAmmo(ItemType)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropAmmo_ItemType_System_UInt16_System_Boolean_">Player.DropAmmo(ItemType, ushort, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_DropEverything">Player.DropEverything()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ClearInventory_System_Boolean_System_Boolean_">Player.ClearInventory(bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SetGroup_UserGroup_">Player.SetGroup(UserGroup)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Heal_System_Single_">Player.Heal(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_SetRole_PlayerRoles_RoleTypeId_PlayerRoles_RoleChangeReason_">Player.SetRole(RoleTypeId, RoleChangeReason)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Disconnect_System_String_">Player.Disconnect(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReceiveHint_System_String_System_Single_">Player.ReceiveHint(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReceiveHint_System_String_Hints_HintEffect___System_Single_">Player.ReceiveHint(string, HintEffect[], float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_ReceiveHitMarker_System_Single_">Player.ReceiveHitMarker(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetStatModule__1">Player.GetStatModule&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_RedirectToServer_System_UInt16_">Player.RedirectToServer(ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Reconnect_System_Single_System_Boolean_">Player.Reconnect(float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kill">Player.Kill()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Kill_System_String_System_String_">Player.Kill(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Damage_System_Single_System_String_System_String_">Player.Damage(float, string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Damage_System_Single_PluginAPI_Core_Player_UnityEngine_Vector3_System_Int32_">Player.Damage(float, Player, Vector3, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_Damage_PlayerStatsSystem_DamageHandlerBase_">Player.Damage(DamageHandlerBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnStart">Player.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnDestroy">Player.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnUpdate">Player.OnUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnLateUpdate">Player.OnLateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_OnFixedUpdate">Player.OnFixedUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_GetComponent__1_System_Boolean_">Player.GetComponent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="PluginAPI.Core.Player.html#PluginAPI_Core_Player_TryGetComponent__1___0__System_Boolean_">Player.TryGetComponent&lt;T&gt;(out T, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="PluginAPI.Core.PlayerExtensions.html#PluginAPI_Core_PlayerExtensions_GetAmmoLimit_PluginAPI_Core_Player_ItemType_">PlayerExtensions.GetAmmoLimit(Player, ItemType)</a>
+  </div>
+  <div>
+      <a class="xref" href="PluginAPI.Core.PlayerExtensions.html#PluginAPI_Core_PlayerExtensions_GetCategoryLimit_PluginAPI_Core_Player_ItemCategory_">PlayerExtensions.GetCategoryLimit(Player, ItemCategory)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PluginAPI_Core_Server__ctor_" data-uid="PluginAPI.Core.Server.#ctor*"></a>
+
+  <h3 id="PluginAPI_Core_Server__ctor_PluginAPI_Core_Interfaces_IGameComponent_" data-uid="PluginAPI.Core.Server.#ctor(PluginAPI.Core.Interfaces.IGameComponent)">
+  Server(IGameComponent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="PluginAPI.Core.Server.html">Server</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Server(IGameComponent hub)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hub</code> <a class="xref" href="PluginAPI.Core.Interfaces.IGameComponent.html">IGameComponent</a></dt>
+    <dd><p>The hub of server.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PluginAPI_Core_Server_Broadcast_" data-uid="PluginAPI.Core.Server.Broadcast*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Broadcast" data-uid="PluginAPI.Core.Server.Broadcast">
+  Broadcast
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets server broadcast singleton.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Broadcast Broadcast { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Broadcast</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_FriendlyFire_" data-uid="PluginAPI.Core.Server.FriendlyFire*"></a>
+
+  <h3 id="PluginAPI_Core_Server_FriendlyFire" data-uid="PluginAPI.Core.Server.FriendlyFire">
+  FriendlyFire
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether or not server has enabled friendly fire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool FriendlyFire { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_IdleModeActive_" data-uid="PluginAPI.Core.Server.IdleModeActive*"></a>
+
+  <h3 id="PluginAPI_Core_Server_IdleModeActive" data-uid="PluginAPI.Core.Server.IdleModeActive">
+  IdleModeActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L344"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the server is in the Idle Mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IdleModeActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_IdleModeAvailable_" data-uid="PluginAPI.Core.Server.IdleModeAvailable*"></a>
+
+  <h3 id="PluginAPI_Core_Server_IdleModeAvailable" data-uid="PluginAPI.Core.Server.IdleModeAvailable">
+  IdleModeAvailable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether the idle mode is available on the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IdleModeAvailable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Instance_" data-uid="PluginAPI.Core.Server.Instance*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Instance" data-uid="PluginAPI.Core.Server.Instance">
+  Instance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="PluginAPI.Core.Server.html">Server</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Server Instance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PluginAPI.Core.Server.html">Server</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_MaxPlayers_" data-uid="PluginAPI.Core.Server.MaxPlayers*"></a>
+
+  <h3 id="PluginAPI_Core_Server_MaxPlayers" data-uid="PluginAPI.Core.Server.MaxPlayers">
+  MaxPlayers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the maximum amount of players online at the same time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int MaxPlayers { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_PauseIdleMode_" data-uid="PluginAPI.Core.Server.PauseIdleMode*"></a>
+
+  <h3 id="PluginAPI_Core_Server_PauseIdleMode" data-uid="PluginAPI.Core.Server.PauseIdleMode">
+  PauseIdleMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether the server temporarily can't enter the Idle Mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PauseIdleMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_PermissionsHandler_" data-uid="PluginAPI.Core.Server.PermissionsHandler*"></a>
+
+  <h3 id="PluginAPI_Core_Server_PermissionsHandler" data-uid="PluginAPI.Core.Server.PermissionsHandler">
+  PermissionsHandler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get server <a class="xref" href="PluginAPI.Core.Server.html#PluginAPI_Core_Server_PermissionsHandler">PermissionsHandler</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PermissionsHandler PermissionsHandler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PermissionsHandler</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_PlayerCount_" data-uid="PluginAPI.Core.Server.PlayerCount*"></a>
+
+  <h3 id="PluginAPI_Core_Server_PlayerCount" data-uid="PluginAPI.Core.Server.PlayerCount">
+  PlayerCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the amount of players connected to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int PlayerCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Port_" data-uid="PluginAPI.Core.Server.Port*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Port" data-uid="PluginAPI.Core.Server.Port">
+  Port
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the port of the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort Port { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_ReservedSlots_" data-uid="PluginAPI.Core.Server.ReservedSlots*"></a>
+
+  <h3 id="PluginAPI_Core_Server_ReservedSlots" data-uid="PluginAPI.Core.Server.ReservedSlots">
+  ReservedSlots
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the amount of reserved slots.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ReservedSlots { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_ServerIpAddress_" data-uid="PluginAPI.Core.Server.ServerIpAddress*"></a>
+
+  <h3 id="PluginAPI_Core_Server_ServerIpAddress" data-uid="PluginAPI.Core.Server.ServerIpAddress">
+  ServerIpAddress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the Ip address of the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ServerIpAddress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_SpawnProtectDuration_" data-uid="PluginAPI.Core.Server.SpawnProtectDuration*"></a>
+
+  <h3 id="PluginAPI_Core_Server_SpawnProtectDuration" data-uid="PluginAPI.Core.Server.SpawnProtectDuration">
+  SpawnProtectDuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set server spawn protection duration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SpawnProtectDuration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_TPS_" data-uid="PluginAPI.Core.Server.TPS*"></a>
+
+  <h3 id="PluginAPI_Core_Server_TPS" data-uid="PluginAPI.Core.Server.TPS">
+  TPS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get actual ticks per second of the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double TPS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PluginAPI_Core_Server_BanPlayer_" data-uid="PluginAPI.Core.Server.BanPlayer*"></a>
+
+  <h3 id="PluginAPI_Core_Server_BanPlayer_PluginAPI_Core_Player_PluginAPI_Core_Player_System_String_System_Int64_" data-uid="PluginAPI.Core.Server.BanPlayer(PluginAPI.Core.Player,PluginAPI.Core.Player,System.String,System.Int64)">
+  BanPlayer(Player, Player, string, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BanPlayer(Player player, Player issuer, string reason, long duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The player which will be banned.</p>
+</dd>
+    <dt><code>issuer</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The player who issued the ban.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The reason of ban.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>The duration of the ban in seconds.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the ban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_BanPlayer_" data-uid="PluginAPI.Core.Server.BanPlayer*"></a>
+
+  <h3 id="PluginAPI_Core_Server_BanPlayer_PluginAPI_Core_Player_System_String_System_Int64_" data-uid="PluginAPI.Core.Server.BanPlayer(PluginAPI.Core.Player,System.String,System.Int64)">
+  BanPlayer(Player, string, long)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BanPlayer(Player player, string reason, long duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The target player which will be banned.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The reason of the ban.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>The duration of the ban in seconds.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the ban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_BanPlayerByIpAddress_" data-uid="PluginAPI.Core.Server.BanPlayerByIpAddress*"></a>
+
+  <h3 id="PluginAPI_Core_Server_BanPlayerByIpAddress_System_String_PluginAPI_Core_Player_System_String_System_Int64_System_String_" data-uid="PluginAPI.Core.Server.BanPlayerByIpAddress(System.String,PluginAPI.Core.Player,System.String,System.Int64,System.String)">
+  BanPlayerByIpAddress(string, Player, string, long, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BanPlayerByIpAddress(string ipAddress, Player issuer, string reason, long duration, string bannedPlayerNickname = &quot;UnknownName&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ipAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ip address of the player which will be banned.</p>
+</dd>
+    <dt><code>issuer</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The issuer of the ban.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ban reason.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>The duration of the ban.</p>
+</dd>
+    <dt><code>bannedPlayerNickname</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The nickname of the banned player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the ban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_BanPlayerByIpAddress_" data-uid="PluginAPI.Core.Server.BanPlayerByIpAddress*"></a>
+
+  <h3 id="PluginAPI_Core_Server_BanPlayerByIpAddress_System_String_System_String_System_Int64_System_String_" data-uid="PluginAPI.Core.Server.BanPlayerByIpAddress(System.String,System.String,System.Int64,System.String)">
+  BanPlayerByIpAddress(string, string, long, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BanPlayerByIpAddress(string ipAddress, string reason, long duration, string bannedPlayerNickname = &quot;UnknownName&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ipAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ip address of the player which will be banned.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ban reason.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>The duration of the ban.</p>
+</dd>
+    <dt><code>bannedPlayerNickname</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The nickname of the the banned player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the ban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_BanPlayerByUserId_" data-uid="PluginAPI.Core.Server.BanPlayerByUserId*"></a>
+
+  <h3 id="PluginAPI_Core_Server_BanPlayerByUserId_System_String_PluginAPI_Core_Player_System_String_System_Int64_System_String_" data-uid="PluginAPI.Core.Server.BanPlayerByUserId(System.String,PluginAPI.Core.Player,System.String,System.Int64,System.String)">
+  BanPlayerByUserId(string, Player, string, long, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BanPlayerByUserId(string userId, Player issuer, string reason, long duration, string bannedPlayerNickname = &quot;UnknownName&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userid of the player which will be banned.</p>
+</dd>
+    <dt><code>issuer</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The issuer of the ban.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ban reason.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>The duration of the ban.</p>
+</dd>
+    <dt><code>bannedPlayerNickname</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The nickname of the banned player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the ban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_BanPlayerByUserId_" data-uid="PluginAPI.Core.Server.BanPlayerByUserId*"></a>
+
+  <h3 id="PluginAPI_Core_Server_BanPlayerByUserId_System_String_System_String_System_Int64_System_String_" data-uid="PluginAPI.Core.Server.BanPlayerByUserId(System.String,System.String,System.Int64,System.String)">
+  BanPlayerByUserId(string, string, long, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool BanPlayerByUserId(string userId, string reason, long duration, string bannedPlayerNickname = &quot;UnknownName&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userid of player which will be banned.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ban reason.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>The duration of the ban.</p>
+</dd>
+    <dt><code>bannedPlayerNickname</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The nickname of the banned player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the ban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_ClearBroadcasts_" data-uid="PluginAPI.Core.Server.ClearBroadcasts*"></a>
+
+  <h3 id="PluginAPI_Core_Server_ClearBroadcasts" data-uid="PluginAPI.Core.Server.ClearBroadcasts">
+  ClearBroadcasts()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears displayed broadcast.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearBroadcasts()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_GetAllPlayersBanned_" data-uid="PluginAPI.Core.Server.GetAllPlayersBanned*"></a>
+
+  <h3 id="PluginAPI_Core_Server_GetAllPlayersBanned" data-uid="PluginAPI.Core.Server.GetAllPlayersBanned">
+  GetAllPlayersBanned()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets all banned players.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BanDetails[] GetAllPlayersBanned()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">BanDetails</span>[]</dt>
+    <dd><p>List of all banned players.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_GetAllPlayersBanned_" data-uid="PluginAPI.Core.Server.GetAllPlayersBanned*"></a>
+
+  <h3 id="PluginAPI_Core_Server_GetAllPlayersBanned_BanHandler_BanType_" data-uid="PluginAPI.Core.Server.GetAllPlayersBanned(BanHandler.BanType)">
+  GetAllPlayersBanned(BanType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets all banned players.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BanDetails[] GetAllPlayersBanned(BanHandler.BanType banType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>banType</code> <span class="xref">BanHandler</span>.<span class="xref">BanType</span></dt>
+    <dd><p>The type of ban.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">BanDetails</span>[]</dt>
+    <dd><p>List of specified ban types.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Init_" data-uid="PluginAPI.Core.Server.Init*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Init" data-uid="PluginAPI.Core.Server.Init">
+  Init()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_IsPlayerBanned_" data-uid="PluginAPI.Core.Server.IsPlayerBanned*"></a>
+
+  <h3 id="PluginAPI_Core_Server_IsPlayerBanned_System_String_" data-uid="PluginAPI.Core.Server.IsPlayerBanned(System.String)">
+  IsPlayerBanned(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks whether or not a player is banned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPlayerBanned(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userid or ip of the player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the player is banned.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_KickPlayer_" data-uid="PluginAPI.Core.Server.KickPlayer*"></a>
+
+  <h3 id="PluginAPI_Core_Server_KickPlayer_PluginAPI_Core_Player_PluginAPI_Core_Player_System_String_" data-uid="PluginAPI.Core.Server.KickPlayer(PluginAPI.Core.Player,PluginAPI.Core.Player,System.String)">
+  KickPlayer(Player, Player, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Kicks a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void KickPlayer(Player player, Player issuer, string reason)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The player which will be kicked.</p>
+</dd>
+    <dt><code>issuer</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The player who issued kick.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The reason of the kick.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_KickPlayer_" data-uid="PluginAPI.Core.Server.KickPlayer*"></a>
+
+  <h3 id="PluginAPI_Core_Server_KickPlayer_PluginAPI_Core_Player_System_String_" data-uid="PluginAPI.Core.Server.KickPlayer(PluginAPI.Core.Player,System.String)">
+  KickPlayer(Player, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Kicks a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void KickPlayer(Player player, string reason)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="PluginAPI.Core.Player.html">Player</a></dt>
+    <dd><p>The player which will be kicked.</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The reason of the kick.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Restart_" data-uid="PluginAPI.Core.Server.Restart*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Restart" data-uid="PluginAPI.Core.Server.Restart">
+  Restart()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restarts the server and reconnects all players.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Restart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Restart_" data-uid="PluginAPI.Core.Server.Restart*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Restart_System_UInt16_" data-uid="PluginAPI.Core.Server.Restart(System.UInt16)">
+  Restart(ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restarts the server and reconnects all players to target server port.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Restart(ushort redirectPort)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>redirectPort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_RunCommand_" data-uid="PluginAPI.Core.Server.RunCommand*"></a>
+
+  <h3 id="PluginAPI_Core_Server_RunCommand_System_String_CommandSender_" data-uid="PluginAPI.Core.Server.RunCommand(System.String,CommandSender)">
+  RunCommand(string, CommandSender)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Run command as server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RunCommand(string command, CommandSender sender = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The command name.</p>
+</dd>
+    <dt><code>sender</code> <span class="xref">CommandSender</span></dt>
+    <dd><p>The <span class="xref">CommandSender</span> running the command.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_SendBroadcast_" data-uid="PluginAPI.Core.Server.SendBroadcast*"></a>
+
+  <h3 id="PluginAPI_Core_Server_SendBroadcast_System_String_System_UInt16_Broadcast_BroadcastFlags_System_Boolean_" data-uid="PluginAPI.Core.Server.SendBroadcast(System.String,System.UInt16,Broadcast.BroadcastFlags,System.Boolean)">
+  SendBroadcast(string, ushort, BroadcastFlags, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shows a broadcast to the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SendBroadcast(string message, ushort duration, Broadcast.BroadcastFlags type = BroadcastFlags.Normal, bool shouldClearPrevious = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message to be broadcasted.</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>The broadcast duration.</p>
+</dd>
+    <dt><code>type</code> <span class="xref">Broadcast</span>.<span class="xref">BroadcastFlags</span></dt>
+    <dd><p>The broadcast type.</p>
+</dd>
+    <dt><code>shouldClearPrevious</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Clears previous displayed broadcast.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_SetIdleMode_" data-uid="PluginAPI.Core.Server.SetIdleMode*"></a>
+
+  <h3 id="PluginAPI_Core_Server_SetIdleMode_System_Boolean_" data-uid="PluginAPI.Core.Server.SetIdleMode(System.Boolean)">
+  SetIdleMode(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enters or leaves the idle mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetIdleMode(bool state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Value indicating whether the server should enter the idle mode.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Shutdown_" data-uid="PluginAPI.Core.Server.Shutdown*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Shutdown" data-uid="PluginAPI.Core.Server.Shutdown">
+  Shutdown()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shutdowns the server and disconnects all players.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shutdown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_Shutdown_" data-uid="PluginAPI.Core.Server.Shutdown*"></a>
+
+  <h3 id="PluginAPI_Core_Server_Shutdown_System_UInt16_" data-uid="PluginAPI.Core.Server.Shutdown(System.UInt16)">
+  Shutdown(ushort)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shutdowns the server and reconnects all players to target server port.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shutdown(ushort redirectPort)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>redirectPort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_UnbanPlayerByIpAddress_" data-uid="PluginAPI.Core.Server.UnbanPlayerByIpAddress*"></a>
+
+  <h3 id="PluginAPI_Core_Server_UnbanPlayerByIpAddress_System_String_" data-uid="PluginAPI.Core.Server.UnbanPlayerByIpAddress(System.String)">
+  UnbanPlayerByIpAddress(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unbans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UnbanPlayerByIpAddress(string ipAddress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ipAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The ip address of the player.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the unban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PluginAPI_Core_Server_UnbanPlayerByUserId_" data-uid="PluginAPI.Core.Server.UnbanPlayerByUserId*"></a>
+
+  <h3 id="PluginAPI_Core_Server_UnbanPlayerByUserId_System_String_" data-uid="PluginAPI.Core.Server.UnbanPlayerByUserId(System.String)">
+  UnbanPlayerByUserId(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unbans a player from the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UnbanPlayerByUserId(string userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userid of the player to unban.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not the unban was successful.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Lexa013/NwPluginAPI/blob/master/NwPluginAPI/Core/Server.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
